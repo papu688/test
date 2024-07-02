@@ -10,5 +10,7 @@ def contact_view(request):
         return redirect('main')
     return render(request, 'contact.html')
 
+
+
 def main_view(request):
     return render(request, 'index.html')
